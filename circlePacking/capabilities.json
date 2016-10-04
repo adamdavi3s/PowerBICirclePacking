@@ -1,0 +1,31 @@
+{
+   "dataRoles": [
+    {
+        "displayName": "Data",
+        "name": "values",
+        "kind": 2
+    }
+],
+"dataViewMappings": [
+    {
+        "table": {
+            "rows": {
+                "for": {
+                    "in": "values"
+                }
+            }
+        }
+    }
+],
+  "objects": {
+    "myCustomObj": {
+      "displayName": "Test Object",
+      "properties": {
+        "myprop": {
+          "displayName": "Test Property",
+          "type": { "bool": true }
+        }
+      }
+    }
+  }
+}

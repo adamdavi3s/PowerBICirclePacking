@@ -1,0 +1,23 @@
+{
+  "visual": {
+    "name": "circlePacking",
+    "displayName": "CirclePacking",
+    "guid": "PBI_CV_E43E8323_3100_4A3A_801E_B6C712747636",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "A D3 extention to show hierarchy as a set of packed circles",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "1.1.0",
+  "author": {
+    "name": "Adam Davies",
+    "email": "adam@Daftsolutions.co.uk"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}
